@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+@import '_variables.scss';
+// @import '_mixins.less';
+
+// base
+@import 'normalize.scss';
+@import 'base.scss';
+
+// blocks
+@import 'blocks/top-panel.scss';
+@import 'blocks/header.scss';
+@import 'blocks/services.scss';
+@import 'blocks/about.scss';
+@import 'blocks/banner.scss';
+@import 'blocks/category-list.scss';
+@import 'blocks/how-we-working.scss';
+@import 'blocks/phones.scss';
+@import 'blocks/how-find.scss';
+@import 'blocks/video.scss';
+@import 'blocks/slick.scss';
+@import 'blocks/seo-text.scss';
+@import 'blocks/footer.scss';
+
+// avtopro styles. TODO: пересмотреть все
+@import url(https://s1.avto.pro/master/css-min/avtopro.9b7cd50ff03286eea95f.min.css);
+
+.logo {
+  pointer-events: none;
+  user-select: none;
+  flex-shrink: 0;
+  width: 175px;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+  &__img {
+    width: 90px;
+    height: 40px;
+  }
+
+  &__title {
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}
+
+.sto-lp--video .header__subtitle {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sto-lp--video .category-list {
+  margin-bottom: 43px;
+}
+
+.sto-lp--video .how-we-working {
+  padding-bottom: 20px;
+}
+
+.comfort-services h3 {
+  width: 460px;
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 900;
+}
+.comfort-services {
+  display: flex;
+  margin-bottom: 23px;
+}
+.comfort-services .pro-stock-block__list {
+  padding: 0;
+}
+
+.sto-card__comforts-list .pro-stock-block__list__item {
+  margin-bottom: 35px;
+}
+
+.sto-card__comforts-list {
+  width: 950px;
+  margin-right: -50px;
+}
+
+.probanner {
+  margin-bottom: 19px;
+}
+
+.makes {
+  padding-bottom: 53px;
+  border-bottom: 1px solid #ededed;
+}
+
+.makes h2 {
+  margin-bottom: 45px;
+}
+
+.opening-hours {
+  padding-right: 80px;
+}
+
+.opening-hours p {
+  margin-bottom: 0px;
+}
+
+.menu-line {
+  position: relative;
+  top: -106px;
+}
+
+.pro-stock-block__list__item > span {
+  margin-left: 10px;
+}

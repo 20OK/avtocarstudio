@@ -1,0 +1,83 @@
+.top-panel {
+  height: 106px;
+  display: flex;
+  align-items: center;
+
+  &--fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999999999;
+    background: #fff;
+    box-shadow: 0 0 10px 0px rgba(#000, 0.1);
+
+    & + .header {
+      margin-top: 106px;
+    }
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__menu {
+    margin-left: 75px;
+    @apply justify-between flex;
+  }
+
+  &__menu li {
+    margin-left: 40px;
+    /* margin-left: 4rem если html == 10 то там будет 40*/
+    /* @apply ml-16;  */
+  }
+
+  &__menu li:first-child {
+    margin-left: 0;
+  }
+
+  &__menu li a {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3b3b3b;
+    position: relative;
+    padding: 25px 0;
+  }
+
+  &__menu li a {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3b3b3b;
+    position: relative;
+    transition: color 0.3s;
+  }
+
+  &__menu li a:before {
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    background: #668eb1;
+    transform: translateY(25px);
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.3s;
+  }
+
+  &__menu li.active a {
+    color: #668eb1;
+  }
+
+  &__menu li.active a:before {
+    transform: translateY(15px);
+    opacity: 1;
+  }
+
+  &__menu li:hover a {
+    color: #668eb1;
+  }
+}

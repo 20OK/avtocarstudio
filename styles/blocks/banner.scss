@@ -1,0 +1,147 @@
+.pro-seller-label-banner {
+  visibility: visible !important;
+  min-width: 260px !important;
+  display: inline-block !important;
+  font: 14px/1.4 Roboto !important;
+  font-weight: 300 !important;
+  text-align: left !important;
+  color: #000 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  vertical-align: baseline !important;
+  box-sizing: border-box !important;
+}
+.pro-seller-label-banner * {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  vertical-align: baseline !important;
+  box-sizing: border-box !important;
+  font: inherit !important;
+  font-size: 100% !important;
+  color: inherit !important;
+  text-align: inherit !important;
+}
+.pro-seller-label-banner .Logo_1_0_0_15015 {
+  display: inline-flex !important;
+  vertical-align: top !important;
+  width: 100% !important;
+  overflow: hidden !important;
+  flex-wrap: wrap !important;
+  height: 44px !important;
+  border-radius: 23px !important;
+  font-family: 'Roboto' !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 21px !important;
+  background-color: #6e8fb6 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.pro-seller-label-banner .Logo_1_0_0_15015_\5flogo {
+  padding: 0 !important;
+  position: relative !important;
+  z-index: 2 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.pro-seller-label-banner .Logo_1_0_0_15015_\5flogo__img {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: translate(0, 2px) !important;
+}
+.pro-seller-label-banner .Logo_1_0_0_15015_\5flogo-box {
+  flex-shrink: 0 !important;
+  position: relative !important;
+  z-index: 2 !important;
+  width: 60px !important;
+  height: 100% !important;
+  margin: 0 40px 0 0 !important;
+  padding: 0 0 0 16px !important;
+  background-color: #6e8fb6 !important;
+  box-sizing: content-box !important;
+}
+.pro-seller-label-banner .Logo_1_0_0_15015_\5flogo-box:before {
+  content: '' !important;
+  display: block !important;
+  height: 100% !important;
+  width: 30px !important;
+  position: absolute !important;
+  z-index: 1 !important;
+  top: 0 !important;
+  right: 4px !important;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(121, 9, 9, 0) 0%,
+    #5d7fa5 100%
+  ) !important;
+  transform: translate(20%, 0) skewX(-20deg) !important;
+  box-shadow: 10px 0 0 rgba(88, 122, 161, 0.7), 18px 0 0 rgba(88, 122, 161, 0.3),
+    -15px 0 0 10px transparent !important;
+}
+.pro-seller-label-banner .Logo_1_0_0_15015_\5ftext {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  flex: 1 !important;
+  height: 100% !important;
+  min-width: 70px !important;
+  margin-right: 25px !important;
+}
+.pro-seller-label-banner .Logo_1_0_0_15015_\5ftext-item {
+  font-size: 11px !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+.pro-seller-label-banner .Logo_1_0_0_15015_\5ftext-item--top {
+  line-height: 1.1 !important;
+  font-weight: 900 !important;
+}
+.pro-seller-label-banner .Logo_1_0_0_15015_\5ftext-item--big {
+  font-size: 12px !important;
+}
+.pro-seller-label-banner .Logo_1_0_0_15015_\5ftext-item--bottom {
+  font-weight: 400 !important;
+}
+.pro-seller-label-banner[data-style='logo']
+  .Logo_1_0_0_15015
+  .Logo_1_0_0_15015_\5flogo-box {
+  background-color: #2b2b2b !important;
+  width: 105px !important;
+}
+.pro-seller-label-banner[data-style='logo']
+  .Logo_1_0_0_15015
+  .Logo_1_0_0_15015_\5flogo-box:before {
+  right: -5px !important;
+  background: #2b2b2b !important;
+}
+.pro-seller-label-banner[data-style='logo']
+  .Logo_1_0_0_15015
+  .Logo_1_0_0_15015_\5flogo__img {
+  transform: translate(0, -3px) !important;
+}
+.pro-seller-label-banner[data-style='logo']
+  .Logo_1_0_0_15015
+  .Logo_1_0_0_15015_\5ftext {
+  font-size: 11px !important;
+  line-height: 12px !important;
+  font-weight: 300 !important;
+  margin-right: 14px !important;
+}
+
+/* ------- my ------- */
+
+.Logo_1_0_0_15015__text-item--top {
+  text-transform: uppercase !important;
+}
+
+.Logo_1_0_0_15015__text {
+  text-align: center !important;
+}

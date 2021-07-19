@@ -1,0 +1,38 @@
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next {
+  z-index: 1;
+}
+
+.slick-arrow.slick-prev:before {
+  background: url(~/img/lightbox_right.svg) no-repeat center;
+  background-color: rgba(43, 43, 43, 0.5);
+  color: transparent;
+  border-radius: 50%;
+  font-size: 50px;
+  transition: background-color 0.3s;
+}
+
+.slick-arrow.slick-prev {
+  left: 62px;
+  top: 45.7%;
+  transform: scaleX(-1);
+}
+
+.slick-arrow.slick-next {
+  right: 62px;
+  top: 47%;
+}
+
+.slick-arrow.slick-next:before {
+  background: url(~/img/lightbox_right.svg) no-repeat center;
+  background-color: rgba(43, 43, 43, 0.5);
+  color: transparent;
+  border-radius: 50%;
+  font-size: 50px;
+  transition: background-color 0.3s;
+}
+
+.slick-arrow.slick-next:before:hover,
+.slick-arrow.slick-prev:before:hover {
+  background-color: rgba(43, 43, 43, 0.8);
+}

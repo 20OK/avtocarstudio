@@ -1,0 +1,35 @@
+.category-list {
+  margin-bottom: 145px;
+  color: #fff;
+}
+
+.category-list li {
+  position: relative;
+  margin-left: 28px;
+}
+
+.category-list li:before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: #7b7b7b;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -15px;
+}
+.category-list li:first-child:before {
+  display: none;
+}
+
+.category-list li:first-child {
+  margin-left: 0;
+}
+
+.category-list__wrap {
+  display: inline-flex;
+  padding: 6px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+}

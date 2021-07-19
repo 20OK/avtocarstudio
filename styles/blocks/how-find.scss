@@ -1,0 +1,76 @@
+.how-find .address {
+  margin-left: 0;
+}
+
+.how-find .phone-number {
+  border-left: 1px solid #738eaf;
+  border-right: 1px solid #738eaf;
+}
+
+.how-find .phone-number .phones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.how-find__main {
+  display: flex;
+  justify-content: center;
+}
+
+.how-find {
+  background-color: #6a7f98;
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  padding-bottom: 80px;
+}
+.how-find .route {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 26px;
+  padding-right: 40px;
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+.how-find .route a {
+  position: relative;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.how-find .route a:before {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: -1px;
+  background: #a0c4e4;
+}
+
+.how-find h2 {
+  margin-bottom: 41px;
+  color: #fff;
+}
+
+.how-find h4 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 21px 0 10px 0;
+}
+
+.how-find .address,
+.how-find .phone-number,
+.how-find .opening-hours {
+  width: 340px;
+  text-align: center;
+  margin-left: 40px;
+}

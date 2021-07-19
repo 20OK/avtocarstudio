@@ -1,0 +1,45 @@
+.header {
+  min-height: 600px;
+  position: relative;
+  padding-top: 162px;
+  text-align: center;
+  background: url('~/img/top-img.png'), no-repeat;
+  background-position: 50% 0%;
+  color: #fff;
+}
+
+.header:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #2b2b2b;
+  opacity: 0.7;
+  pointer-events: none;
+  user-select: none;
+}
+
+.header--video {
+  background: url('~/img/top-img-video.jpg'), no-repeat;
+  background-position: -200px 0;
+  padding-top: 220px;
+}
+
+.header__container {
+  position: relative;
+  z-index: 10;
+}
+
+.header__title {
+  margin-bottom: 20px;
+}
+
+.header__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 34px;
+  margin-bottom: 20px;
+}

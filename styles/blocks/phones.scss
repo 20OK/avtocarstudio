@@ -1,0 +1,47 @@
+.phones {
+  @apply flex;
+  align-items: center;
+}
+
+.phones ul {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.phones li {
+  display: flex;
+  align-items: center;
+}
+
+.phones i {
+  flex-shrink: 0;
+  margin-left: 2px;
+  line-height: 1em;
+}
+
+.phones hr {
+  /* TODO: должно быть height: 100% а не статика*/
+  height: 20px;
+  width: 1px;
+  background: #d8d8d8;
+  margin: 0 21px 0 14px;
+  display: block;
+}
+
+.phones--simple hr {
+  display: none;
+}
+
+.phones--simple > i {
+  display: none;
+}
+
+.phones--simple span {
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 300;
+}
+
+.phones--simple ul {
+  margin-top: -4px;
+}
